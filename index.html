@@ -87,7 +87,7 @@
 
     // ====== Load model ======
     const params = new URLSearchParams(location.search);
-    const modelPath = params.get('model') || 'test3times.glb'; // place index.html next to test3times.glb
+    const modelPath = params.get('model') || '20.glb'; // place index.html next to 20.glb
 
     const loader = new GLTFLoader();
     loader.load(
@@ -221,4 +221,5 @@
   </script>
 </body>
 </html>
+
 
